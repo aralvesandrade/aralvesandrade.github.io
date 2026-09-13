@@ -1,0 +1,61 @@
+{
+  "menu": {
+    "inicio": "Home",
+    "sobre": "About",
+    "stack": "Stack",
+    "experiencia": "Experience",
+    "contato": "Contact",
+    "abrir": "Open menu",
+    "projetos": "Projects"
+  },
+  "hero": {
+    "cargo": "SOFTWARE ENGINEER",
+    "descricao": "I build software and infrastructure solutions to transform real problems into simple, scalable and reliable systems."
+  },
+  "about": {
+    "titulo": "ABOUT ME",
+    "subtitulo": "Who I am",
+    "descricao1": "I'm a software engineer with over 20 years of experience in system development, solution integration, cloud and infrastructure.",
+    "descricao2": "I mainly work with Go, .NET, React, Docker, Kubernetes and relational and NoSQL databases, always seeking best practices, automation and scalable solutions.",
+    "problema": "Business\nproblem",
+    "arquitetura": "Efficient\narchitecture",
+    "solucoes": "Scalable\nsolutions",
+    "experiencia_titulo": "EXPERIENCE IN"
+  },
+  "expertise": {
+    "backend": "Backend Development & APIs",
+    "cloud": "Cloud & Infrastructure",
+    "devops": "DevOps / GitOps",
+    "integracao": "Systems & Data Integration",
+    "arquitetura": "Software Architecture",
+    "observabilidade": "Observability & Monitoring"
+  },
+  "stack": {
+    "titulo": "TECH STACK",
+    "subtitulo": "Technologies I work with",
+    "core": "Core",
+    "cloud": "Cloud & Platform",
+    "additional": "Also work with"
+  },
+  "exp": {
+    "titulo": "WORK EXPERIENCE",
+    "jornada": "My journey",
+    "atual": "present",
+    "remoto": "Remote",
+    "anterior": "Previous experience",
+    "descricao_anterior": "System development, solution integration and infrastructure.",
+    "anos": "+20 years",
+    "empresas": "Multiple companies",
+    "contato_titulo": "LEARN MORE",
+    "contato_subtitulo": "Let's talk?",
+    "contato_descricao": "I'm always open to new opportunities, challenging projects and good conversations."
+  },
+  "footer": {
+    "direitos": "All rights reserved."
+  },
+  "cloudProjects": {
+    "titulo": "CLOUD PROJECTS",
+    "subtitulo": "Solutions hosted on MGC Magalu Cloud",
+    "mgc": "Hosted on"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "menu": {
+    "inicio": "Inicio",
+    "sobre": "Sobre",
+    "stack": "Stack",
+    "experiencia": "Experiencia",
+    "contato": "Contacto",
+    "abrir": "Abrir menú",
+    "projetos": "Proyectos"
+  },
+  "hero": {
+    "cargo": "INGENIERO DE SOFTWARE",
+    "descricao": "Construyo soluciones de software e infraestructura para transformar problemas reales en sistemas simples, escalables y confiables."
+  },
+  "about": {
+    "titulo": "SOBRE MÍ",
+    "subtitulo": "Quién soy",
+    "descricao1": "Soy ingeniero de software con más de 20 años de experiencia en desarrollo de sistemas, integración de soluciones, cloud e infraestructura.",
+    "descricao2": "Trabajo principalmente con Go, .NET, React, Docker, Kubernetes y bases de datos relacionales y NoSQL, siempre buscando buenas prácticas, automatización y soluciones escalables.",
+    "problema": "Problema\nde negocio",
+    "arquitetura": "Arquitectura\neficiente",
+    "solucoes": "Soluciones\nescalables",
+    "experiencia_titulo": "EXPERIENCIA EN"
+  },
+  "expertise": {
+    "backend": "Desarrollo Backend y APIs",
+    "cloud": "Cloud e Infraestructura",
+    "devops": "DevOps / GitOps",
+    "integracao": "Integración de Sistemas y Datos",
+    "arquitetura": "Arquitectura de Software",
+    "observabilidade": "Observabilidad y Monitoreo"
+  },
+  "stack": {
+    "titulo": "STACK TECNOLÓGICO",
+    "subtitulo": "Tecnologías con las que trabajo",
+    "core": "Core",
+    "cloud": "Cloud & Platform",
+    "additional": "También trabajo con"
+  },
+  "exp": {
+    "titulo": "EXPERIENCIA PROFESIONAL",
+    "jornada": "Mi trayectoria",
+    "atual": "actual",
+    "remoto": "Remoto",
+    "anterior": "Experiencia anterior",
+    "descricao_anterior": "Desarrollo de sistemas, integración de soluciones e infraestructura.",
+    "anos": "+20 años",
+    "empresas": "Diversas empresas",
+    "contato_titulo": "CONOCE MÁS",
+    "contato_subtitulo": "¿Hablamos?",
+    "contato_descricao": "Siempre estoy abierto a nuevas oportunidades, proyectos desafiantes y buenas conversaciones."
+  },
+  "footer": {
+    "direitos": "Todos los derechos reservados."
+  },
+  "cloudProjects": {
+    "titulo": "PROYECTOS CLOUD",
+    "subtitulo": "Soluciones alojadas en MGC Magalu Cloud",
+    "mgc": "Alojado en"
+  }
+}

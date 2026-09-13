@@ -1,18 +1,21 @@
 import { Cloud, Code2, Database } from 'lucide-react'
 import { stack } from '../data/stack'
-
-const groups = [
-  { title: 'Core', icon: Code2, items: stack.core },
-  { title: 'Cloud & Platform', icon: Cloud, items: stack.cloud },
-  { title: 'Também trabalho com', icon: Database, items: stack.additional },
-]
+import { useLanguage } from '../i18n'
 
 export function Stack() {
+  const { t } = useLanguage()
+
+  const groups = [
+    { title: t('stack.core'), icon: Code2, items: stack.core },
+    { title: t('stack.cloud'), icon: Cloud, items: stack.cloud },
+    { title: t('stack.additional'), icon: Database, items: stack.additional },
+  ]
+
   return (
     <section id="stack" className="section divider">
       <div className="container">
-        <div className="eyebrow"><span /> STACK TECNOLÓGICO</div>
-        <p className="section-subtitle">Tecnologias com as quais trabalho</p>
+        <div className="eyebrow"><span /> {t('stack.titulo')}</div>
+        <p className="section-subtitle">{t('stack.subtitulo')}</p>
         <div className="stack-grid">
           {groups.map(({ title, icon: Icon, items }) => (
             <div className="stack-card" key={title}>

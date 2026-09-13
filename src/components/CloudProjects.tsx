@@ -11,7 +11,7 @@ export function CloudProjects() {
         <div className="eyebrow"><span /> {t('cloudProjects.titulo')}</div>
         <p className="section-subtitle">{t('cloudProjects.subtitulo')}</p>
         <div className="projects-grid">
-          {projects.map(({ name, url }) => (
+          {projects.map(({ name, url, key }) => (
             <a
               key={name}
               className="project-card"
@@ -24,14 +24,14 @@ export function CloudProjects() {
                 <ArrowUpRight size={16} />
               </div>
               <strong>{name}</strong>
-              <span className="project-url">{name}.aralvesandrade.com.br</span>
+              <span className="project-desc">{t(`cloudProjects.projects.${key}`)}</span>
             </a>
           ))}
         </div>
         <p className="section-subtitle project-mgc">
           {t('cloudProjects.mgc')}{' '}
           <a href="https://magalu.cloud/" target="_blank" rel="noreferrer">
-            MGC Magalu Cloud
+            Magalu Cloud
           </a>
         </p>
       </div>

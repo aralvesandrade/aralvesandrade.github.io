@@ -55,7 +55,13 @@
   },
   "cloudProjects": {
     "titulo": "PROYECTOS CLOUD",
-    "subtitulo": "Soluciones alojadas en MGC Magalu Cloud",
-    "mgc": "Alojado en"
+    "subtitulo": "Soluciones alojadas en Magalu Cloud",
+    "mgc": "Alojado en",
+    "projects": {
+      "n8n": "Automatización de flujos de trabajo e integraciones",
+      "excalidraw": "Pizarra digital para diagramas",
+      "databasement": "Gestión de bases de datos",
+      "portainer": "Gestión de contenedores Docker"
+    }
   }
 }

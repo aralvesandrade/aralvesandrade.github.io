@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react'
+import { Github, Linkedin, Mail, Phone } from 'lucide-react'
 import { useLanguage } from '../i18n'
 
 export function Experience() {
@@ -37,9 +37,8 @@ export function Experience() {
           <p>{t('exp.contato_descricao')}</p>
           <a href="mailto:aralves.andrade@gmail.com"><Mail size={15} /> aralves.andrade@gmail.com</a>
           <a href="https://wa.me/5516992750948" target="_blank" rel="noreferrer"><Phone size={15} /> (16) 99275-0948</a>
-          <span><MapPin size={15} /> Franca/SP · Brasil</span>
-          <a href="https://www.linkedin.com/in/aralvesandrade/" target="_blank" rel="noreferrer"><Linkedin size={15} /> linkedin.com/in/aralvesandrade</a>
           <a href="https://github.com/aralvesandrade" target="_blank" rel="noreferrer"><Github size={15} /> github.com/aralvesandrade</a>
+          <a href="https://www.linkedin.com/in/aralvesandrade/" target="_blank" rel="noreferrer"><Linkedin size={15} /> linkedin.com/in/aralvesandrade</a>
         </div>
       </div>
     </section>

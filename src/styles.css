@@ -66,7 +66,7 @@ button { font: inherit; }
 
 h2 { font: 700 30px/1.1 "Space Grotesk"; margin: 12px 0 10px; color: #eaf4fb; }
 h3 { font: 700 21px "Space Grotesk"; margin: 10px 0; }
-.about-grid { display: grid; grid-template-columns: 1.05fr .9fr .62fr; gap: 32px; align-items: center; }
+.about-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 32px; align-items: center; }
 .about-grid p { color: #99afbf; line-height: 1.65; font-size: 14px; max-width: 570px; }
 .flow { display: flex; align-items: center; gap: 13px; margin-top: 28px; }
 .flow > div { display: flex; align-items: center; gap: 9px; color: #b9cbd8; font-size: 12px; white-space: pre-line; }
@@ -97,7 +97,7 @@ h3 { font: 700 21px "Space Grotesk"; margin: 10px 0; }
 .project-card:hover { border-color: var(--blue); transform: translateY(-2px); }
 .project-card-header { display: flex; justify-content: space-between; color: var(--blue); }
 .project-card strong { color: #d8e6ef; font-size: 16px; }
-.project-url { color: #60798a; font-size: 11px; }
+.project-desc { color: #8ca4b7; font-size: 13px; line-height: 1.5; }
 .project-mgc { margin-top: 20px; }
 .project-mgc a { color: var(--blue); text-decoration: underline; }
 .project-mgc a:hover { color: #cceaff; }
@@ -116,7 +116,7 @@ h3 { font: 700 21px "Space Grotesk"; margin: 10px 0; }
 .contact a:not(.button):hover { color: var(--blue); }
 .button.small { margin-top: 8px; padding: 10px 14px; }
 
-.footer { border-top: 1px solid var(--line); padding: 22px 0; color: #60798a; font-size: 10px; }
+.footer { border-top: 1px solid var(--line); padding: 22px 0; color: #60798a; font-size: 10px; text-align: center; }
 .footer-inner { display: flex; justify-content: space-between; gap: 20px; }
 .footer-inner div { display: flex; gap: 20px; }
 .footer a:hover { color: var(--blue); }
